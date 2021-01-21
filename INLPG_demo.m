@@ -6,7 +6,7 @@ detects changes by comparing the structures of two images, rather than comparing
 
 INLPG is an improved version of our previous work NPSG (https://github.com/yulisun/NPSG):
 Sun, Yuli, et al."Nonlocal patch similarity based heterogeneous
-remote sensing change detection. Pattern Recognition," 2021, 109, 107598.
+remote sensing change detection." Pattern Recognition, 2021, 109, 107598.
 
 The computational time of INLPG can be reduced by using the
 Kgraph (http://www.kgraph.org/) to replace the "knnsearch" in the function
