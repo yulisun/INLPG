@@ -135,7 +135,7 @@ elseif strcmp(dataset,'Texas') == 1 % Heterogeneous CD of multispectral VS. mult
     brightnessScaling_t1_L5 = max(t1_L5(:)) / double(prctile(t1_L5(:), t));
     brightnessScaling_t2_ALI = max(t2_ALI(:)) / double(prctile(t2_ALI(:), t));
     figure;subplot(131);imshow(2*t1_L5(:,:,[4 3 2]),[])
-    subplot(132);imshow(2*t2_L5(:,:,[4 3 2]),[])
+    subplot(132);imshow(6*t2_ALI(:,:,[5 4 3]),[])
     subplot(133);imshow(ROI_1,[])
     image_t1 = double(t1_L5);
     image_t2 = double(t2_ALI);
