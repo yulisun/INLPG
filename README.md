@@ -24,7 +24,7 @@ Pattern Recognition 109 (2021): 107598.
 
 Sun, Yuli, et al. "Structure Consistency based Graph for Unsupervised
 Change Detection with Homogeneous and Heterogeneous Remote Sensing Images."
-IEEE Transactions on Geoscience and Remote Sensing, Early Access, 2021,
+IEEE Transactions on Geoscience and Remote Sensing, accepted, 2021,
 doi:10.1109/TGRS.2021.3053571.
 
 ===================================================
