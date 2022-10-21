@@ -58,6 +58,7 @@ fprintf(['\n INLPG is running...... ' '\n'])
 fprintf('\n');fprintf('The computational time of INLPG without Kgraph acceleration is %i \n', etime(clock, t0));
 %% display result
 fprintf(['\n Displaying the results...... ' '\n'])
+% If the DI display is dark, you can adjust the value display range.
 figure;
 subplot(231);imshow(DIfw_dist,[]);title('DIfw-dist');colormap('jet')
 subplot(232);imshow(DIbw_dist,[]);title('DIbw-dist');colormap('jet')
@@ -81,6 +82,7 @@ hold on ; plot(FPR_fw_sim,TPR_fw_sim);
 hold on ; plot(FPR_bw_sim,TPR_bw_sim);
 hold on ; plot(FPR_fusion_sim,TPR_fusion_sim);
 legend('DIfw-dist','DIbw-dist','DIfusion-dist','DIfw-sim','DIbw-sim','DIfusion-sim')
+title('ROC curve')
 
 [AUC_fw_dist, Ddist_fw_dist] = AUC_Diagdistance(TPR_fw_dist, FPR_fw_dist);
 [AUC_bw_dist, Ddist_bw_dist] = AUC_Diagdistance(TPR_bw_dist, FPR_bw_dist);
